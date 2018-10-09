@@ -1,0 +1,84 @@
+.maingrid{
+	display: grid;
+	grid-template-columns: repeat(9, auto);
+	background-color: lightgrey;
+	grid-auto-rows: 10%;
+}
+
+.headline{
+	grid-column-start: 1;
+	grid-column-end: 10;
+	border-style: groove;
+	text-align: center;
+	margin-bottom: 0;
+}
+
+#gridnav{
+	grid-column-start: 1;
+	grid-column-end: 2;
+	grid-row-start: 2;
+	grid-row-end: 9;
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	border-style: groove;
+	text-align: center;
+}
+
+#gd1{
+	grid-column-start:2;
+	grid-column-end: 6;
+	grid-row-start: 2;
+	border-style: groove;
+	margin: 0;
+	padding: 0;
+	text-align: center;
+	display: grid;
+	grid-template-columns: repeat(4, 1fr);
+	grid-template-areas: 
+		"devname devname devname devname"
+		"devbutton devbutton devbutton devbutton";
+	}
+
+#gd2{
+	grid-column-start:6;
+	grid-column-end: 10;
+	grid-row-start: 2;
+	border-style: groove;
+	margin: 0;
+	padding: 0;
+	text-align: center;
+	display: grid;
+	grid-template-columns: repeat(4, 1fr);
+	grid-template-areas: 
+		"devname devname devname devname"
+		"devbutton devbutton devbutton devbutton";
+	}
+}
+
+.devbutton{
+	text-align: center;
+	grid-area: devbutton;
+	border-style-bottom: solid;
+	height: 10pt;
+}
+
+.devname{
+	grid-area: devname;
+	border-style-bottom: double;
+	padding-bottom: 0;
+	height: 30pt;
+}
+
+
+#gridbottom1{
+	grid-column-start: 1;
+	grid-column-end: 10;
+	margin-left: 0;
+	border-style: groove;
+}
+
+
+body{
+	margin: 0;
+}

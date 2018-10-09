@@ -1,0 +1,12 @@
+<Devices>
+        <scriptcmds>
+                <radio>
+                        <arrow>http://streams.radiobob.de/bob-live/mp3-192/mediaplayer</arrow>
+                </radio>
+        </scriptcmds>
+
+        <oscmds>
+                <power>shutdown</power>
+                <chrome>chrome</chrome>
+        </oscmds>
+</Devices>

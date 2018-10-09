@@ -1,0 +1,4 @@
+<netdevs>
+    <radio host="192.168.0.3" port="1337" />
+    <os host="192.168.0.3" port="1337" />
+</netdevs>
